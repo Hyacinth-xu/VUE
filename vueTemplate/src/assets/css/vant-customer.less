@@ -1,0 +1,117 @@
+// 对组件库样式进行适配*2
+
+// toast
+.van-toast {
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 8px;
+    letter-spacing: 0.5;
+}
+
+.van-toast--text {
+    padding: 18px 24px;
+}
+
+// picker
+.van-picker__toolbar {
+    height: 44px;
+    line-height: 44px;
+}
+.van-picker__cancel, .van-picker__confirm {
+    box-sizing: content-box;
+    font-size: 18px;
+}
+
+.van-picker-column__item {
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+// dialog
+.van-dialog {
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.van-dialog__header {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.van-dialog__message--has-title {
+    padding-top: 12px;
+}
+
+.van-dialog__message {
+    padding: 25px;
+    font-size: 18px;
+}
+
+.van-button--large {
+    height: 48px;
+    line-height: 48px;
+}
+.van-button {
+    font-size: 18px;
+}
+
+// tabs
+.van-tabs--line {
+    padding-top: 40px;
+    .van-tabs__wrap {
+        height: 40px;
+    }
+}
+[class*=van-hairline]::after{
+   border: none;
+}
+
+
+.van-tabs__line {
+    bottom: 8px;
+    width: 30px;
+    height: 4px;
+    background: #BE8A65;
+    border-radius: 0;
+}
+
+.van-tab {
+    padding: 0;
+    color: #4F4F4F;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.van-tab--active {
+    font-size: 14px;
+    color: #BE8A65;
+    font-weight: bold;
+}
+
+// list
+.van-list {
+    min-height: 550px;
+}
+
+.van-list__finished-text {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.van-list__finished-text, .van-list__loading-text {
+    font-size: 13px;
+}
+
+// 
+.van-pull-refresh__head {
+    font-size: 14px;
+}
+
+.van-image-preview .van-image-preview__index {
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    text-shadow: 0 1px 1px;
+    z-index: 990;
+    top: 20px;
+}
