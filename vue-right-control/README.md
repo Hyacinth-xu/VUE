@@ -1,10 +1,12 @@
-# hongmu
+#xubing
 
 > A Vue.js project
 
 ## Build Setup
 
 ``` bash
+
+# vue 权限控制
 # install dependencies
 npm install
 
